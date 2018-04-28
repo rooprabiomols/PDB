@@ -1,9 +1,11 @@
 #!/usr/bin/perl
-#This code is used for identifying and spliting alternate conformations in a given PDB file. (If a PDB file contains alternate conformation.)
+#This code is used for identifying and spliting alternate conformations in a given PDB file. 
+#(If a PDB file contains alternate conformation.)
 #The chosen conformation is written out as a separate output file
 #The code can be run in an interactive mode in Linux shell or Cygwin
 
-#Example format: 6LYZ or 6lyz (The pdb file 6LYZ.pdb or 6lyz.pdb should be available in the current working directory to get accurate results)
+#Example format: 6LYZ or 6lyz (The pdb file 6LYZ.pdb or 6lyz.pdb should be 
+#available in the current working directory to get accurate results)
 print "Enter the Four Letter Code of PDB Filename (case sensitive):";
 $fname=<STDIN>;
 chomp($fname);
