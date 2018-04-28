@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-print "Enter the PDB Filename:";
+print "Enter the Four Letter Code of PDB Filename:";
 $fname=<STDIN>;
 chomp($fname);
 
